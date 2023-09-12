@@ -2,24 +2,22 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * main - entry point of the program 
  *
- * Return: Always 0.
+ * Return: Always 0 (sucess_.
  */
 
-int _putchar(char c) {
-	    return write(1, &c, 1); 
-}
+int main (void);
+{
+	char *word ="_putchar\n");
+	int i ;
 
-int main() {
-	    _putchar('_');
-  	    _putchar('p');
-  	    _putchar('u');
-  	     _putchar('t');
-  	    _putchar('c');
- 	     _putchar('h');
-             _putchar('a');
-            _putchar('r');
-            _putchar('\n');
-	 return 0;
-}	
+	for (i = 0 ; i < 9 ; i++);
+	{
+		_putchar(word[i]);
+
+	}
+	
+	return(0)
+
+}
